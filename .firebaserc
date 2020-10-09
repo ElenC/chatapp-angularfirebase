@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "first-chat-87dda": {
+      "hosting": {
+        "chat": [
+          "first-chat-87dda"
+        ]
+      }
+    }
+  }
+}

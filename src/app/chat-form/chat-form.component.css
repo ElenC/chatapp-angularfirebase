@@ -1,0 +1,57 @@
+/* .chatInput{
+display: block;
+flex: 10;
+font-size: 1.3em;
+font-family: 'Open Sans', sans-serif;
+background-color: #eee;
+color: #000;
+transition: 0.1s ease-out;
+padding-left: 80px;
+border: 1px solid red;
+width: 70%;
+} */
+
+.chatInput{
+    display: block;
+    flex: 9;
+    font-size: 1.2em;
+    transition: 0.1s ease-out;
+    padding-left: 80px;
+    outline: none;
+    border: none;
+}
+
+.chatButton{
+    padding: 8px 24px;
+    padding: 10px;
+    flex:2;
+    color: white;
+    transition: 0.2s ease-out;
+    min-width: 50px;
+    background-color: #000000;
+   font-size: 1em;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+.chatInput:focus{
+    color:#222;
+    transition: 0.2s ease-in;
+   
+}
+
+/* .chatButton{
+ 
+   
+    
+    
+    font-family: 'Droid Sans', sans-serif;
+   
+  
+    
+}
+
+
+.chatButton:hover{
+    background-color: #444;
+} */

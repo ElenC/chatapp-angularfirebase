@@ -1,0 +1,70 @@
+.container{
+    overflow: hidden; 
+    background: url(https://images.unsplash.com/photo-1523380456970-5a4bcf7a4381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80) center center no-repeat;
+}
+
+.telaCad{
+    display: block; 
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 80px 30px;
+    overflow: hidden;
+    background-color: rgb(14, 13, 13);
+    border-radius: 10px;
+}
+
+.formInput{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px 10px 10px 60px;
+    background-color: #ecf0f1;
+    font-size: 1em;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    height: 54px;
+    margin-top: 32px;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: ease-in 0.2s;
+    width: 100%;
+    cursor: pointer;
+}
+
+#btn-cad{
+    background-color: #82579e;
+}
+
+#btn-cad:hover{
+    background-color: #995399;
+    transition: ease-in 0.3s;
+}
+h2{
+    text-align: center;
+    height: 2em;
+}
+a{
+    text-decoration: none;
+}
+.label{
+    font-size: 1em;
+    color: #fff;
+    margin: 40px 40px 40px 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading{
+    color: #fff;
+}

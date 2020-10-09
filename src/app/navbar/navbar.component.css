@@ -1,0 +1,59 @@
+
+.navBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #070707;
+}
+#logo{
+    display: inline-block;
+   background: url(https://www.flaticon.com/svg/static/icons/svg/3214/3214461.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 12px 10px 12px 32px;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+}
+
+#heading{
+    flex: 4;
+    padding: 24px 0px 8px 10px;
+    height: 60px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links{
+    padding-top: 32px;
+    padding-right: 30px;
+    white-space: nowrap;
+    display: block;
+}
+
+#heading > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    padding-right: 12px;
+    overflow: hidden;
+}
+
+.links a:hover{
+    color:#765785;
+    transition: ease-in 0.2s;
+}
+
+
+#userEmail{
+    color: #fff;
+    margin: 10px;
+    font-style: italic;
+}

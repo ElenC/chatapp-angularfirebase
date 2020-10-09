@@ -1,0 +1,84 @@
+.container{
+    height: 100%;
+    overflow:hidden;
+    background:url(https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)center center no-repeat;
+}
+/* .loginCard{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.85);
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding: 80px 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
+    overflow: hidden;
+  } */
+
+.telaLogin{
+    margin-left: 900px;
+    margin-top: 50px;
+    display: block;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 80px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.17), 0 2px 5px rgba(0,0,0,0.24);
+    background-color: rgb(12, 10, 10);
+    overflow: hidden;
+
+}
+  
+.formInput{
+    margin: auto;
+    margin-top: 16px;
+    display: block;
+    width: 60%;
+    height: 40px;
+    border-radius:4px;
+    background:#ecf0f1;
+    border: none;
+    padding: 8px;
+    font-size:1em;
+    text-align: center;
+    outline: none;
+}
+
+.btn{
+    height: 54px;
+    width: 75%;
+    margin: auto;
+    margin-top: 16px;
+    margin-left: 55px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+  
+#btn-login{
+    background-color:#4A4875;
+}
+  
+#btn-login:hover{
+     background-color:#5A5895;
+    transition: ease-in 0.2s;
+}
+
+h2{
+ height: 2em;
+ color: #fff;
+ text-align: center;
+}
+  
+a {
+ text-decoration: none;
+}

@@ -1,0 +1,8 @@
+
+    <app-user-item
+    [user]=user *ngFor="let user of users">
+    <p class="displayName">
+    <span class="status" [ngClass]=(user.status)></span> 
+    {{user.user1}}</p> 
+    <p id="small">{{user.email}}</p>
+    </app-user-item>
